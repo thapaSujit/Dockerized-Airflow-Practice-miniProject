@@ -1,4 +1,4 @@
-# Twitter ETL Mini Project using Apache Airflow
+# Twitter ETL Mini Project using Apache Airflow/ Playing with airflow
 
 This mini project showcases a simple ETL (Extract, Transform, Load) pipeline using Apache Airflow to fetch and refine tweets from Twitter. The pipeline consists of two main components: a DAG (Directed Acyclic Graph) definition file (`twitter_dag.py`) and an ETL script (`twitter_etl.py`).
 
