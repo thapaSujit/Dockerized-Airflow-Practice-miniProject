@@ -28,6 +28,9 @@ This mini project showcases a simple ETL (Extract, Transform, Load) pipeline usi
      - `dag_with_taskflow_api.py`: Shows the usage of TaskFlow API in DAG construction.
      - `our_first_dag.py`: Placeholder for the initial DAG setup.
 
+4. **Docker Compose Files**
+   - `docker-compose.yaml`: Basic Airflow cluster configuration for CeleryExecutor with Redis and PostgreSQL. 
+
 ## Notes
 
 - The DAG is scheduled to run the ETL process daily, fetching and refining tweets from the specified Twitter user.
