@@ -16,6 +16,18 @@ This mini project showcases a simple ETL (Extract, Transform, Load) pipeline usi
    - Extracts relevant information from each tweet.
    - Creates a Pandas DataFrame and saves it to a CSV file named 'refined_tweets.csv'.
 
+3. **Practice Code**
+   - The repository includes practice code snippets involving various Airflow features:
+     - `create_dag_with_python_operator.py`: Demonstrates creating a DAG using the PythonOperator.
+     - `dag_with_catchup_and_backfill.py`: Shows usage of the `catchup` and `backfill` parameters in DAG definition.
+     - `dag_with_cron_expression.py`: Illustrates creating a DAG with a cron expression for scheduling.
+     - `dag_with_minio_s3.py`: Demonstrates setting up a DAG with MinIO S3 storage.
+     - `dag_with_postgres_hooks.py`: Shows how to use PostgreSQL hooks in an Airflow DAG.
+     - `dag_with_postgres_operator.py`: Illustrates using the PostgreSQLOperator in a DAG.
+     - `dag_with_python_dependencies.py`: Demonstrates a DAG with additional Python dependencies.
+     - `dag_with_taskflow_api.py`: Shows the usage of TaskFlow API in DAG construction.
+     - `our_first_dag.py`: Placeholder for the initial DAG setup.
+
 ## Notes
 
 - The DAG is scheduled to run the ETL process daily, fetching and refining tweets from the specified Twitter user.
