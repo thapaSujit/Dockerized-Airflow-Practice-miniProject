@@ -1,4 +1,4 @@
-# Import necessary modules and classes from Airflow
+# Import the necessary modules and classes from Airflow
 from datetime import timedelta
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
